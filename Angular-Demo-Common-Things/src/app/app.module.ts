@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { AsynchronousProgrammingComponent } from './asynchronous-programming/asynchronous-programming.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AsynchronousProgrammingComponent
   ],
   imports: [
     BrowserModule

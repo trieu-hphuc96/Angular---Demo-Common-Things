@@ -1,0 +1,13 @@
+.container{
+    background: black;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__content{
+        background: white;
+        position: absolute;
+        cursor: pointer;
+    }
+}
